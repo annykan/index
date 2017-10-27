@@ -1,0 +1,43 @@
+ 
+        * {
+            font-family: "Noto+Sans", "notosanstc";
+/*            英中文字型*/
+            box-sizing: border-box; 
+/*            所有padding 往內算*/
+        }
+        
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ul,
+        ol,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .clearfix:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+/*        防止小框漂浮超出大框*/
+        
+        img {
+            width: 100%;
+            vertical-align: top;
+        }
+        
+        p,
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #5d5c5c;
+        }
+       
